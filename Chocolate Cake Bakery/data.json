@@ -1,0 +1,67 @@
+{
+    "items": [{
+            "sys": { "id": "1" },
+            "fields": {
+                "title": "Chocolate Cake",
+                "price": 10.99,
+                "image": { "fields": { "file": { "url": "./Images/img1.jpg" } } }
+            }
+        },
+        {
+            "sys": { "id": "2" },
+            "fields": {
+                "title": "Butter Cake",
+                "price": 9.90,
+                "image": { "fields": { "file": { "url": "./Images/img2.jpg" } } }
+            }
+        },
+        {
+            "sys": { "id": "3" },
+            "fields": {
+                "title": "Angel Food Cake",
+                "price": 11.00,
+                "image": { "fields": { "file": { "url": "./Images/img3.jpg" } } }
+            }
+        },
+        {
+            "sys": { "id": "4" },
+            "fields": {
+                "title": "Baked Flourless Cake",
+                "price": 9.10,
+                "image": { "fields": { "file": { "url": "./Images/img4.jpg" } } }
+            }
+        },
+        {
+            "sys": { "id": "5" },
+            "fields": {
+                "title": "Fudge Brownie Cake",
+                "price": 20.00,
+                "image": { "fields": { "file": { "url": "./Images/img5.jpg" } } }
+            }
+        },
+        {
+            "sys": { "id": "6" },
+            "fields": {
+                "title": "Black Forest Cake",
+                "price": 8.99,
+                "image": { "fields": { "file": { "url": "./Images/img6.jpg" } } }
+            }
+        },
+        {
+            "sys": { "id": "7" },
+            "fields": {
+                "title": "Cup-Cake",
+                "price": 19.00,
+                "image": { "fields": { "file": { "url": "./Images/img7.jpg" } } }
+            }
+        },
+        {
+            "sys": { "id": "8" },
+            "fields": {
+                "title": "Sweets",
+                "price": 5.99,
+                "image": { "fields": { "file": { "url": "./Images/img8.jpg" } } }
+            }
+        }
+    ]
+}

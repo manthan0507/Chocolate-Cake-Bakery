@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+    <title>Chocolate Cake Bakery</title>
+    <link rel="icon" href="Images/logo.png" type="image/x-icon">
+</head>
+
+<body>
+
+
+
+    <div class="header">
+        <a href="#"><img src="Images/logo.png" alt="" width="76" height="76"></a>
+        <input type="checkbox" class="openSidebarMenu" id="openSidebarMenu">
+        <label for="openSidebarMenu" class="sidebarIconToggle">
+      <div class="spinner diagonal part-1"></div>
+      <div class="spinner horizontal"></div>
+      <div class="spinner diagonal part-2"></div>
+    </label>
+        <div id="sidebarMenu">
+            <ul class="sidebarMenuInner">
+
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#store">Our Store</a></li>
+                <li><a href="#ContactUs">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+    <section class="cart-button">
+        <!-- single info -->
+        <div class="nav-info cart-info align-items-center d-flex justify-content-center">
+            <span class="cart-info__icon mx-2 ">
+                    <i class="fa fa-shopping-cart "></i>
+                </span>
+            <p class="mb-0 text-capitalize mx-2 display-item ">
+                <span class="item-count">0</span> items - $
+                <span class="item-total">0.00</span>
+            </p>
+        </div>
+        <!-- End of single info -->
+    </section>
+    <div class="container-fluid " id="home ">
+        <div class="row max-height justify-content-center align-items-center ">
+            <div class="col-10 mx-auto banner text-center ">
+                <h1 class="text-capitalize ">welcome to <br><strong class="banner-title ">Chocolate Cake Bakery</strong></h1>
+                <a href="#store " class="btn banner-link text-uppercase my-2 ">Let's go</a>
+            </div>
+
+
+            <div class="cart " id="cart ">
+                <div>
+                    <a id="cart-close " class="cart-item-close align-self-center ">
+                        <i class="fa fa-close px-4 py-4"></i>
+                    </a>
+                    <h4 class="text-center cart-color">Your Cart</h4>
+                </div>
+                <div class="cart-area" id="cart-area">
+
+                </div>
+                <div>
+                    <h5 class="text-center cart-color py-2 ">Total Amount: $ <span class="item-total1">0.00</span></h5>
+                </div>
+
+                <div class="cart-total-container d-flex justify-content-around my-4 ">
+                    <a class="btn btn-black clear-cart text-uppercase ">clear cart</a>
+                    <a class="btn text-uppercase check-out btn-black ">checkout</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <section class="about py-10 " id="about">
+        <div class="container ">
+            <div class="row ">
+                <div class="col-md-6 col-sm-10 col-lg-4 mx-auto my-5 ">
+                    <h1 class="text-capitalize text-center ">about <strong class="banner-title ">us</strong></h1>
+                    <p class="my-4 w-100 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod odio error debitis quasi nihil repudiandae sunt, perspiciatis incidunt aut modi quas voluptas sint molestias voluptates similique tempora delectus, reprehenderit veritatis.</p>
+                    <a href="# " class="btn btn-black text-uppercase ">Read more..</a>
+                </div>
+                <div class=" my-4 col-md-6 col-lg-4 col-sm-10 align-self-center px-5 ">
+                    <div class="about-img__container ">
+                        <img src="Images/img8.jpg " width="100% " heigth="100% " alt=" " class="img-fluid ">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div id="store">
+        <br>
+        <br>
+        <br>
+    </div>
+    <section class="store">
+
+        <h1 class=" text-capitalize text-center mb-5 ">Our <strong class="banner-title ">Store</strong></h1>
+
+        <div class="container-fluid ">
+            <div class="row store-items ">
+
+            </div>
+        </div>
+    </section>
+    <!-- end of store items -->
+
+
+
+    <footer id="ContactUs" class="footer my-20">
+        <div class="container ">
+            <div class="row ">
+                <div class="col-md-4 text-center text-md-left ">
+
+                    <div class="py-0 ">
+                        <h3 class="my-4 primary-color ">About<span class="mx-2 ">Cake Maker</span></h3>
+
+                        <p class="footer-links ">
+                            <a class="primary-color px-2 " href="# ">Home</a> |
+                            <a class="primary-color px-2 " href="#about ">About</a> |
+                            <a class="primary-color px-2" href="#store ">Store</a>
+                        </p>
+                        <p class="primary-color py-4 mb-4 ">&copy;2020 The Cake Maker.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-4 primary-color text-center  ">
+                    <div class="py-2 my-4 ">
+                        <div>
+                            <p class="primary-color "> <i class="fa fa-map-marker mx-2 "></i> <br>307- Lorem ipsum dolor sit amet -305735</p>
+                        </div>
+
+                        <div>
+                            <p><i class="fa fa-phone primary-color mx-2 "></i><br> + 998 556 224</p>
+                        </div>
+                        <div class="email ">
+                            <p><i class="fa fa-envelope primary-color mx-2 "></i>
+                                <a href="mailto:manthanpanchal333@gmail.com " class="primary-color "><br>manthanpanchal333@gmail.com</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 text-white text-center text-md-left ">
+                    <span class=" font-weight-bold ">About the Company</span>
+                    <p class="primary-color ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus corrupti ratione maxime ullam fuga ipsum quasi excepturi aliquid accusamus nisi repellat hic mollitia sapiente nemo.</p>
+                    <div class="py-4 social-icon ">
+                        <a href="# "><i class="fa fa-facebook text-primary mx-3 "></i></a>
+                        <a href="# "><i class="fa fa-google-plus text-danger mx-3 "></i></a>
+                        <a href="# "><i class="fa fa-twitter text-info mx-3 "></i></a>
+                        <a href="# "><i class="fa fa-youtube text-danger mx-3 "></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+<script src="App.js "></script>
+
+</html>
